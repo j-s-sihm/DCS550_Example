@@ -1,0 +1,15 @@
+---
+title: GGplot2 Test2
+author: ''
+date: '2021-05-18'
+slug: []
+categories: []
+tags: []
+---
+
+```{r echo=TRUE, results='show', message=FALSE, warning=FALSE, fig.show='show'}
+library( ggplot2 )
+library( tidyverse )
+
+mpg %>% ggplot( aes( class, fill=drv ) ) + geom_bar()
+```
