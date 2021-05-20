@@ -20,7 +20,6 @@ params:
   author: John Doe
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
   menu_item_separator: ' - '
-  avatar: static/avatar.jpg
   social:
     - icon: github
       name: Github
