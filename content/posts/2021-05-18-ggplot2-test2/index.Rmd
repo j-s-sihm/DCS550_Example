@@ -11,5 +11,5 @@ tags: []
 library( ggplot2 )
 library( tidyverse )
 
-mpg %>% ggplot( aes( class, fill=drv ) ) + geom_bar()
+mpg %>% ggplot( aes( class, fill=drv ) ) + geom_bar() + theme_dark()
 ```
